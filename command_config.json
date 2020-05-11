@@ -1,0 +1,26 @@
+{
+    "rand": {
+        "command": "rand",
+        "pull_request": "False",
+        "include_labels": "[]",
+        "exclude_labels": "['status: stale']",
+        "sort": "'created'",
+        "ascending_order": "False"
+    },
+    "review": {
+        "command": "review",
+        "pull_request": "True",
+        "include_labels": "['needs: code review']",
+        "exclude_labels": "['status: stale']",
+        "sort": "'updated'",
+        "ascending_order": "True"
+    },
+    "feedback": {
+        "command": "feedback",
+        "pull_request": "True",
+        "include_labels": "['needs: feedback']",
+        "exclude_labels": "['status: stale']",
+        "sort": "'updated'",
+        "ascending_order": "True"
+    }
+}
